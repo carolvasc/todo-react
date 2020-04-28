@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const URL = TODOAPI || 'http://localhost:3003/api/todos';
+// const URL = 'http://localhost:3003/api/todos';
+const URL = 'https://todo-react-b.herokuapp.com/api/todos';
 
 export const changeDescription = event => ({
     type: 'DESCRIPTION_CHANGED',
