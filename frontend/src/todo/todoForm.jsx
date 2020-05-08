@@ -29,27 +29,28 @@ class TodoForm extends Component {
         const { add, search, description } = this.props
         return (
             <div role='form' className='todoForm'>
-                <Grid cols='12 9 10'>
-                    <input id='description' className='form-control'
-                        placeholder='Adicione uma tarefa'
-                        onChange={this.props.changeDescription}
-                        onKeyUp={this.keyHandler}
-                        value={this.props.description}></input>
-                </Grid>
-                <Grid cols='12 3 2'>
-                    <IconButton style='primary' icon='plus'
-                        onClick={() => add(description)}></IconButton>
-                    <IconButton style='info' icon='search'
-                        onClick={search}></IconButton>
-                    <IconButton style='default' icon='close'
-                        onClick={this.props.clear}></IconButton>
-                </Grid>
+                <div className="col-md-12">
+                    <div className="input-group">
+                        <input type="text" id="description" className="form-control"
+                            autoComplete="off"
+                            placeholder="Adicione sua tarefa"
+                            onChange={this.props.changeDescription}
+                            onKeyUp={this.keyHandler}
+                            value={this.props.description}
+                        />
+                        <div className="input-group-append">
+                            <IconButton style='primary' icon='plus' tooltip="Adicionar" onClick={() => add(description)} />
+                            <IconButton style='info' icon='search' tooltip="Pesquisar" onClick={search} />
+                            <IconButton style='dark' icon='close' tooltip="Limpar" onClick={this.props.clear} />
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
 }
 
-const mapStateToProps = state => ({description: state.todo.description})
-const mapDispatchToProps = dispatch => 
+const mapStateToProps = state => ({ description: state.todo.description })
+const mapDispatchToProps = dispatch =>
     bindActionCreators({ add, changeDescription, search, clear }, dispatch)
 export default connect(mapStateToProps, mapDispatchToProps)(TodoForm)
