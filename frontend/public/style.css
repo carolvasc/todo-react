@@ -3,7 +3,10 @@ html, body {
   min-height: 100%;
 }
 
-
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(230,231,255,0.3);
+}
 
 .container-task {
   display: flex;
