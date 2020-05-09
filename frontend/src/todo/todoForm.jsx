@@ -28,7 +28,7 @@ class TodoForm extends Component {
     render() {
         const { add, search, description } = this.props
         return (
-            <div role='form' className='todoForm'>
+            <div role='form' className='pb-5'>
                 <div className="col-md-12">
                     <div className="input-group">
                         <input type="text" id="description" className="form-control"
@@ -39,9 +39,9 @@ class TodoForm extends Component {
                             value={this.props.description}
                         />
                         <div className="input-group-append">
-                            <IconButton style='primary' icon='plus' tooltip="Adicionar" onClick={() => add(description)} />
-                            <IconButton style='info' icon='search' tooltip="Pesquisar" onClick={search} />
-                            <IconButton style='dark' icon='close' tooltip="Limpar" onClick={this.props.clear} />
+                            <IconButton style='primary mb-0 mr-0' icon='plus' tooltip="Adicionar" onClick={() => add(description)} />
+                            <IconButton style='info mb-0 mr-0' icon='search' tooltip="Pesquisar" onClick={search} />
+                            <IconButton style='dark mb-0 mr-0' icon='close' tooltip="Limpar" onClick={this.props.clear} />
                         </div>
                     </div>
                 </div>

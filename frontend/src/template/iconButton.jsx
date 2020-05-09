@@ -3,7 +3,7 @@ import If from './if'
 
 export default props => (
     <If test={!props.hide}>
-        <button className={'btn btn-' + props.style + ' mb-0 mr-0'}
+        <button className={'btn btn-' + props.style}
             data-toggle="tooltip"
             data-placement="bottom"
             title={props.tooltip}
