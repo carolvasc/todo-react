@@ -9,7 +9,7 @@ import './todo.css';
 export default props => (
     <div className="task-container">
             <div className="card">
-                <PageHeader name='Tarefas' small='Cadastro'></PageHeader>
+                <PageHeader />
                 <TodoForm />
                 <TodoList />
             </div>
