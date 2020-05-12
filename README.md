@@ -4,9 +4,9 @@
 
 This is one of those projects that every developer ends up doing with their first contact with a new language.
 <p>The <b>todo <span style="color: #61DBFB;">react</span></b> is a very simple application for creating and organizing tasks.</p>
-This was my first ReactJS project, and I made him in two versions, one with Redux and one without.
+<p>This was my first ReactJS project, and I made him in two versions, one with Redux and one without.</p>
 
-<!-- ![](frontend/assets/todo-react.png) -->
+![](frontend/assets/todo-react.png)
 
 ### :rocket: Demo
 <p>The deploy was made on <b>Netlify</b> and you can access in here https://todo-react-cvs.netlify.app/</p>
@@ -39,7 +39,7 @@ Open your terminal and run the application:
 $ npm run dev
 ```
 
-If the whole process has gone smoothly, an application available at `localhost:8080`.
+If the whole process has gone well, the application will be available at `localhost:8080`.
 
 <br />
 <h5>Versão 1.0</h5>
