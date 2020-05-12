@@ -1,16 +1,17 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-<h1 align="center">todo react</h1>
+<h1 align="center">todo <span style="color: #61DBFB;">react</span></h1>
 
-Is a finance management system that is very useful for organizing weekly, monthly or any way the user sees fit, as it is totally free to create your payment cycles.
+This is one of those projects that every developer ends up doing with their first contact with a new language.
+<p>The <b>todo <span style="color: #61DBFB;">react</span></b> is a very simple application for creating and organizing tasks.</p>
+This was my first ReactJS project, and I made him in two versions, one with Redux and one without.
 
-
-![](src/assets/my-money-register.png)
+<!-- ![](frontend/assets/todo-react.png) -->
 
 ### :rocket: Demo
 <p>The deploy was made on <b>Netlify</b> and you can access in here https://todo-react-cvs.netlify.app/</p>
 
-<p><b>PS:</b> The first request (registration or login) will take a while to return an answer because the API will be in "hibernate" mode.
+<p><b>PS:</b> The first request (when creating the first task) will take a while to return an answer because the API will be in "hibernate" mode.
 The "hibernate" "mode happens because the API doesn't get a lot of constant access.</p>
 
 ## Technologies
