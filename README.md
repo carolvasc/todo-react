@@ -1,29 +1,44 @@
-# ToDo App
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-<p>O ToDo App é um sistema simples para gerenciamento de tarefas cotidianas, seja no trabalho ou vida pessoal.</p>
+<h1 align="center">todo react</h1>
 
-## Tecnologias
+Is a finance management system that is very useful for organizing weekly, monthly or any way the user sees fit, as it is totally free to create your payment cycles.
 
-<p>Ele foi o meu primeiro projeto feito em <b>React</b> (Webpack), e apesar de ser um projeto pequeno, eu o migrei para <b>React/Redux</b>.</p>
-<p>O back-end foi desenvolvido com <b>NodeJS</b> e <b>Express</b> e o banco de dados não-relacional <b>MongoDB</b>, onde eu tive meu primeiro contato com essas tecnologias.</p>
 
-## Instalação
+![](src/assets/my-money-register.png)
 
-* Baixar o NPM, Node e MongoDB.
+### :rocket: Demo
+<p>The deploy was made on <b>Netlify</b> and you can access in here https://todo-react-cvs.netlify.app/</p>
 
-* Dentro da pasta do Mongo, encontre a pasta bin e digite `mongod` para executá-lo (via terminal).
-  * Exemplo: `C:\Arquivos de Programas\MongoDB\Server\4.0\bin> mongod`
+<p><b>PS:</b> The first request (registration or login) will take a while to return an answer because the API will be in "hibernate" mode.
+The "hibernate" "mode happens because the API doesn't get a lot of constant access.</p>
 
-* Abra o projeto em uma IDE de sua preferência ou apenas o terminal do sistema operacional.
+## Technologies
+- HTML && CSS
+- ReactJS
+- Webpack
+- The state management <b>Redux</b>
+- Deployed on <b>Netlify</b>
 
-* Para startar o back-end
-  * `cd backend`
-  * `npm install`
-  * `npm run dev` ou `npm run production`
+## Installation
+Download NPM, Node and MongoDB.
 
-* Para startar o front-end
-  * `cd frontend`
-  * `npm install`
-  * `npm run dev`
-  
-* Caso todo o processo tenha ocorrido normalmente, a aplicação estará disponível em `localhost:8080`.
+Clone and configure the backend [todo react API.](https://github.com/carolvasc/todo-react-api)
+
+Clone this repo locally:
+```sh
+$ git clone https://github.com/carolvasc/todo-react.git
+```
+Install the dependencies:
+```
+$ npm install
+```
+Open your terminal and run the application:
+```sh
+$ npm run dev
+```
+
+If the whole process has gone smoothly, an application available at `localhost:8080`.
+
+<br />
+<h5>Versão 1.0</h5>
